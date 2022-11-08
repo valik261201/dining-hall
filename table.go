@@ -63,7 +63,7 @@ func performPostRequest() {
 }
 
 func waitToOrder() {
-	for i := 0; i <= 10; i++ {
+	for i := 0; i < 5; i++ {
 		go performPostRequest()
 	}
 }
