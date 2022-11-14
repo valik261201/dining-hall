@@ -58,7 +58,7 @@ func performPostRequest() {
 
 		defer response.Body.Close()
 
-		fmt.Printf("\nOrder sent to kitchen\n")
+		fmt.Printf("\nOrder sent to agregator\n")
 	}
 }
 
